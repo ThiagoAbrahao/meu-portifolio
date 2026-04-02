@@ -1,12 +1,5 @@
 🌐 Web Portfolio: Profissional & Acadêmico
 
-<p align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/HTML5-E34F26%3Fstyle%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite" alt="HTML5" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind_CSS-38B2AC%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css%26logoColor%3Dwhite" alt="Tailwind" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/JavaScript-F7DF1E%3Fstyle%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3Dblack" alt="JS" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Status-Conclu%C3%ADdo-success%3Fstyle%3Dfor-the-badge" alt="Status" />
-</p>
-
 Este repositório hospeda uma aplicação web de página única (SPA) de alta performance, desenvolvida meticulosamente para a apresentação de currículos, competências e portfólios de projetos. O projeto prioriza uma estética minimalista, funcionalidade fluida e uma experiência de usuário (UX) de nível profissional.
 
 🏛️ Arquitetura & Conceito
