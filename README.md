@@ -1,49 +1,63 @@
-🚀 Projeto de Website: Portfólio Profissional & Acadêmico
+🌐 Web Portfolio: Profissional & Acadêmico
 
-Este repositório contém o código-fonte de uma aplicação web de página única (SPA), projetada especificamente para a exibição estruturada de currículos, competências e projetos. O foco do projeto é oferecer uma interface de alto desempenho, limpa e funcional para apresentação de trajetórias profissionais.
+<p align="center">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/HTML5-E34F26%3Fstyle%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite" alt="HTML5" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind_CSS-38B2AC%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css%26logoColor%3Dwhite" alt="Tailwind" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/JavaScript-F7DF1E%3Fstyle%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3Dblack" alt="JS" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Status-Conclu%C3%ADdo-success%3Fstyle%3Dfor-the-badge" alt="Status" />
+</p>
 
-📋 Arquitetura do Projeto
+Este repositório hospeda uma aplicação web de página única (SPA) de alta performance, desenvolvida meticulosamente para a apresentação de currículos, competências e portfólios de projetos. O projeto prioriza uma estética minimalista, funcionalidade fluida e uma experiência de usuário (UX) de nível profissional.
 
-O site foi construído seguindo princípios de design moderno e desenvolvimento ágil. A estrutura foi pensada para ser leve, eliminando a necessidade de frameworks pesados de JavaScript no frontend, utilizando uma abordagem de "Vanilla JS" para garantir compatibilidade e velocidade de carregamento.
+🏛️ Arquitetura & Conceito
+
+O projeto foi concebido sob os pilares do Clean Design e Desenvolvimento Ágil. A estrutura é propositalmente leve para garantir tempos de carregamento instantâneos, utilizando uma abordagem de Vanilla JavaScript para evitar a sobrecarga de frameworks desnecessários, mantendo a máxima eficiência.
 
 🛠️ Especificações Técnicas
 
-Estrutura (HTML5): Utilização de tags semânticas para otimização de SEO e acessibilidade, garantindo que o conteúdo seja interpretável por motores de busca e leitores de tela.
+A pilha tecnológica foi escolhida para garantir modernidade e facilidade de manutenção:
 
-Estilização (Tailwind CSS): Implementação via CDN de um sistema de design baseado em utilitários. Isso permite uma interface altamente customizável com baixo custo de manutenção e um arquivo final extremamente leve.
+Estrutura (HTML5): Marcação semântica avançada para garantir acessibilidade (A11y) e excelente indexação em motores de busca (SEO).
 
-Interatividade (Vanilla JavaScript): Lógica customizada para manipulação do DOM, controle de estados do menu (mobile/desktop) e implementação de comportamentos de rolagem suave (smooth scroll).
+Estilização (Tailwind CSS): Implementação via CDN de um sistema de design baseado em utilitários, permitindo uma interface altamente customizável com baixo custo de manutenção.
 
-Tipografia: Integração com Google Fonts para carregamento dinâmico da família 'Inter', otimizada para legibilidade em telas de diferentes resoluções.
+Interatividade (Vanilla JavaScript): Lógica customizada para manipulação do DOM, controle de estados do menu e comportamentos de rolagem suave.
+
+Tipografia: Integração com Google Fonts para carregamento dinâmico da família 'Inter', otimizada para legibilidade.
 
 ✨ Funcionalidades do Sistema
 
-Layout Adaptativo (Responsive Design): Sistema de grid flexível que reorganiza os componentes automaticamente para visualização otimizada em smartphones, tablets e desktops.
+📱 Layout Adaptativo: Sistema de grid flexível (Responsive Design) para smartphones, tablets e desktops.
 
-Navegação Persistente: Barra de navegação fixa com profundidade visual (z-index) configurada para sobrepor o conteúdo durante a rolagem, mantendo os controles de acesso sempre disponíveis.
+📍 Navegação Persistente: Barra de navegação fixa e sólida que garante acesso constante aos menus durante a rolagem.
 
-Componentização Visual: Uso de cards interativos com efeitos de transição CSS (hover states) para exibição de projetos acadêmicos e profissionais.
+🖼️ Componentização Visual: Cards interativos com efeitos de transição CSS para exibição de projetos.
 
-Seções Modulares: Organização por blocos de conteúdo (Hero, Sobre, Trajetória, Projetos e Contato) que facilitam a leitura escaneável.
+🧱 Seções Modulares: Organização em blocos independentes (Hero, Sobre, Trajetória, Projetos e Contato).
 
 🚀 Como Executar a Aplicação
 
-O projeto foi desenvolvido para ser "plug-and-play", não exigindo compiladores ou gerenciadores de pacotes para sua execução básica.
+O projeto é "plug-and-play", não exigindo compiladores ou gerenciadores de pacotes.
 
-Clone este repositório para sua máquina local.
+Clone este repositório:
 
-Abra o arquivo portfolio.html em qualquer navegador moderno.
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
 
-Opcional: Utilize o Live Server para visualizar alterações em tempo real durante o desenvolvimento.
 
-🎨 Guia de Customização Técnica
+Abra o arquivo: Localize portfolio.html e abra em qualquer navegador moderno.
 
-A estrutura permite modificações rápidas através da edição direta do código:
+Dica: Utilize a extensão Live Server no VS Code para visualizar alterações em tempo real.
 
-Paleta de Cores: Alteração das classes bg-indigo-600, text-slate-900, etc., via Tailwind.
+🎨 Guia de Customização
 
-Seções: Duplicação de blocos de experiencia ou projetos para expansão de conteúdo.
+A estrutura permite modificações rápidas através da edição direta das classes utilitárias:
 
-Integração: Os links de contato estão preparados para protocolos mailto: e links externos diretos.
+Cores: Altere as classes bg-indigo-600 ou text-slate-900 para mudar o tema.
 
-Projeto desenvolvido como modelo de portfólio web de alta fidelidade.
+Conteúdo: Duplique os blocos de experiencia ou projetos para expandir a lista.
+
+Links: Os botões de contato estão preparados para protocolos mailto: e URLs externas.
+
+<p align="center">
+<i>Projeto desenvolvido como modelo de portfólio web de alta fidelidade.</i>
+</p>
