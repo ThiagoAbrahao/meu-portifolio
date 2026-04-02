@@ -1,0 +1,13 @@
+body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .nav-container {
+            background-color: #ffffff !important;
+            opacity: 1 !important;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
