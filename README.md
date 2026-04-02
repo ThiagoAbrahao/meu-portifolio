@@ -39,15 +39,6 @@ Tipografia: Integração com Google Fonts para carregamento dinâmico da famíli
 
 O projeto é "plug-and-play", não exigindo compiladores ou gerenciadores de pacotes.
 
-Clone este repositório:
-
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-
-
-Abra o arquivo: Localize portfolio.html e abra em qualquer navegador moderno.
-
-Dica: Utilize a extensão Live Server no VS Code para visualizar alterações em tempo real.
-
 🎨 Guia de Customização
 
 A estrutura permite modificações rápidas através da edição direta das classes utilitárias:
