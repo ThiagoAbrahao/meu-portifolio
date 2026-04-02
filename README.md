@@ -1,59 +1,49 @@
-🚀 Meu Portfólio Profissional & Acadêmico
+🚀 Projeto de Website: Portfólio Profissional & Acadêmico
 
-Este é um projeto de portfólio pessoal moderno, responsivo e minimalista, desenvolvido para destacar trajetórias acadêmicas e experiências profissionais em uma única página (SPA - Single Page Application).
+Este repositório contém o código-fonte de uma aplicação web de página única (SPA), projetada especificamente para a exibição estruturada de currículos, competências e projetos. O foco do projeto é oferecer uma interface de alto desempenho, limpa e funcional para apresentação de trajetórias profissionais.
 
-📋 Sobre o Projeto
+📋 Arquitetura do Projeto
 
-O objetivo deste site é servir como um cartão de visitas digital, apresentando de forma clara e elegante quem eu sou, o que já realizei e como entrar em contato comigo. O design foca na legibilidade e na experiência do usuário em qualquer dispositivo.
+O site foi construído seguindo princípios de design moderno e desenvolvimento ágil. A estrutura foi pensada para ser leve, eliminando a necessidade de frameworks pesados de JavaScript no frontend, utilizando uma abordagem de "Vanilla JS" para garantir compatibilidade e velocidade de carregamento.
 
-🛠️ Tecnologias Utilizadas
+🛠️ Especificações Técnicas
 
-HTML5: Estrutura semântica do site.
+Estrutura (HTML5): Utilização de tags semânticas para otimização de SEO e acessibilidade, garantindo que o conteúdo seja interpretável por motores de busca e leitores de tela.
 
-Tailwind CSS: Framework utilitário para estilização rápida, moderna e responsiva.
+Estilização (Tailwind CSS): Implementação via CDN de um sistema de design baseado em utilitários. Isso permite uma interface altamente customizável com baixo custo de manutenção e um arquivo final extremamente leve.
 
-JavaScript (Vanilla): Lógica para navegação suave, menu mobile e interatividade.
+Interatividade (Vanilla JavaScript): Lógica customizada para manipulação do DOM, controle de estados do menu (mobile/desktop) e implementação de comportamentos de rolagem suave (smooth scroll).
 
-Google Fonts (Inter): Tipografia refinada para melhor leitura.
+Tipografia: Integração com Google Fonts para carregamento dinâmico da família 'Inter', otimizada para legibilidade em telas de diferentes resoluções.
 
-✨ Funcionalidades
+✨ Funcionalidades do Sistema
 
-Design Responsivo: Adaptado para celulares, tablets e desktops.
+Layout Adaptativo (Responsive Design): Sistema de grid flexível que reorganiza os componentes automaticamente para visualização otimizada em smartphones, tablets e desktops.
 
-Navegação Fixa e Sólida: Menu superior sempre visível com fundo branco opaco para facilitar a navegação.
+Navegação Persistente: Barra de navegação fixa com profundidade visual (z-index) configurada para sobrepor o conteúdo durante a rolagem, mantendo os controles de acesso sempre disponíveis.
 
-Seções Dedicadas:
+Componentização Visual: Uso de cards interativos com efeitos de transição CSS (hover states) para exibição de projetos acadêmicos e profissionais.
 
-Início (Hero): Saudação inicial com call-to-action.
+Seções Modulares: Organização por blocos de conteúdo (Hero, Sobre, Trajetória, Projetos e Contato) que facilitam a leitura escaneável.
 
-Sobre: Breve resumo da carreira e motivações.
+🚀 Como Executar a Aplicação
 
-Trajetória: Linha do tempo dividida entre experiências profissionais e acadêmicas.
+O projeto foi desenvolvido para ser "plug-and-play", não exigindo compiladores ou gerenciadores de pacotes para sua execução básica.
 
-Projetos: Galeria de cards para exibir trabalhos com tags de tecnologias.
+Clone este repositório para sua máquina local.
 
-Contato: Acesso direto via E-mail e LinkedIn com links clicáveis.
+Abra o arquivo portfolio.html em qualquer navegador moderno.
 
-Scroll Suave: Navegação fluida entre as seções da página.
+Opcional: Utilize o Live Server para visualizar alterações em tempo real durante o desenvolvimento.
 
-🚀 Como Executar o Projeto
+🎨 Guia de Customização Técnica
 
-Como o projeto é construído em um único arquivo HTML utilizando CDN para o CSS, não há necessidade de instalar dependências complexas.
+A estrutura permite modificações rápidas através da edição direta do código:
 
-Faça o download ou clone este repositório.
+Paleta de Cores: Alteração das classes bg-indigo-600, text-slate-900, etc., via Tailwind.
 
-Abra o arquivo portfolio.html (ou index.html) em qualquer navegador web.
+Seções: Duplicação de blocos de experiencia ou projetos para expansão de conteúdo.
 
-Para desenvolvimento local com atualização em tempo real, recomenda-se o uso da extensão Live Server no VS Code.
+Integração: Os links de contato estão preparados para protocolos mailto: e links externos diretos.
 
-🎨 Personalização
-
-Para deixar o portfólio com a sua cara, basta abrir o arquivo HTML e editar os seguintes pontos:
-
-Textos: Procure por nomes como "Thiago Domingos", "Cargo Atual" e "Sua Foto" para inserir suas informações.
-
-Links: No final do arquivo, substitua os endereços de e-mail e o link do seu perfil no LinkedIn.
-
-Imagens: Substitua as divs de placeholder ou as cores de fundo por caminhos de imagens reais (<img src="caminho/da/foto.jpg">).
-
-Desenvolvido por Thiago Domingos
+Projeto desenvolvido como modelo de portfólio web de alta fidelidade.
